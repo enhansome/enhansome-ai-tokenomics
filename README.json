@@ -1,1310 +1,1385 @@
 {
   "items": [
     {
-      "description": "Just want the numbers: the five area sections below hold every entry. Want the method: read the practices first, then the concepts behind them. Building something: setups and skills holds runnable configurations.",
-      "items": [],
-      "title": "Where to start"
-    },
-    {
-      "description": "Each entry ends with a kind badge: (blue, with the license when known), or a gray badge for , , , for companies, and . Plain entries are articles. GitHub-hosted tools also carry a live last-commit badge.",
-      "items": [],
-      "title": "Legend"
-    },
-    {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CodexBar",
+              "description": "A free, open-source macOS menu-bar app that shows limits and reset timers at a glance across dozens of AI providers, plus credit balances and spending.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1097695258,
+                "language": "Swift",
+                "last_commit": "2026-08-19T05:18:47Z",
+                "owner": "steipete",
+                "repo": "CodexBar",
+                "stars": 20324
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ccusage",
+              "description": "An open-source CLI that reads local agent logs to report token usage and cost across 15 coding-agent sources, with caching-aware pricing.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 992755069,
+                "language": "Rust",
+                "last_commit": "2026-08-19T11:30:54Z",
+                "owner": "ccusage",
+                "repo": "ccusage",
+                "stars": 18033
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CodeBurn",
+              "description": "An open-source tracker for 36 coding tools whose optimize command flags named harness-waste patterns with dollar estimates it later checks against actuals.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1209889782,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T19:49:23Z",
+                "owner": "getagentseal",
+                "repo": "codeburn",
+                "stars": 9534
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Claude Code Usage Monitor",
+              "description": "A live terminal dashboard for Claude Code usage, with burn-rate analytics, P90 limit detection, and session-expiry forecasts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1004631442,
+                "language": "Python",
+                "last_commit": "2026-07-05T04:52:21Z",
+                "owner": "Maciek-roboblog",
+                "repo": "Claude-Code-Usage-Monitor",
+                "stars": 8641
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "gh-aw (GitHub Agentic Workflows)",
+              "description": "GitHub's agentic-workflows runtime with first-party per-run token and cost metering, plus budget caps that stop a workflow mid-run.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1036865607,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:13:05Z",
+                "owner": "github",
+                "repo": "gh-aw",
+                "stars": 4957
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenUsage",
+              "description": "A native Swift macOS menu-bar meter for 10 AI coding subscriptions, showing session and weekly limits, credits, and estimated spend from local credentials.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1147103080,
+                "language": "Swift",
+                "last_commit": "2026-08-19T11:01:05Z",
+                "owner": "robinebers",
+                "repo": "openusage",
+                "stars": 3820
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenLIT",
+              "description": "An open-source (Apache-2.0), OpenTelemetry-native platform with a self-hosted dashboard for LLM cost, token, and latency observability.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 747319327,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T10:35:57Z",
+                "owner": "openlit",
+                "repo": "openlit",
+                "stars": 2700
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "claude-usage",
+              "description": "A local dashboard for Claude Code token usage, costs, and session history; Pro and Max subscribers get a quota progress bar.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1204165003,
+                "language": "Python",
+                "last_commit": "2026-07-10T10:08:48Z",
+                "owner": "phuryn",
+                "repo": "claude-usage",
+                "stars": 2151
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ClaudeBar",
+              "description": "A macOS menu-bar app that monitors AI coding quotas across 11 providers; the README declares MIT but ships no license file, so the OSS grant is unconfirmed.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1120106077,
+                "language": "Swift",
+                "last_commit": "2026-08-19T04:01:07Z",
+                "owner": "tddworks",
+                "repo": "ClaudeBar",
+                "stars": 1424
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TokenTracker",
+              "description": "A local-first token and cost dashboard for 27 coding tools, with a desktop pet, native widgets, and achievements as a distinct gamified take on usage metering.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1201960789,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T12:05:24Z",
+                "owner": "xiufengsun",
+                "repo": "TokenTracker",
+                "stars": 1367
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CodeZeno Usage Monitor",
+              "description": "A Windows taskbar widget showing real-time Claude Code quota and usage at a glance, without opening a terminal.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1167544724,
+                "language": "Rust",
+                "last_commit": "2026-08-17T07:48:35Z",
+                "owner": "CodeZeno",
+                "repo": "Claude-Code-Usage-Monitor",
+                "stars": 404
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Codex Usage Tracker",
+              "description": "A local-first dashboard, CLI, and MCP tools indexing Codex CLI logs into SQLite to show where tokens, credits, and cost go, including cache ratios.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1241754264,
+                "language": "Python",
+                "last_commit": "2026-08-12T19:11:41Z",
+                "owner": "douglasmonsky",
+                "repo": "codex-usage-tracker",
+                "stars": 195
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Dashboards"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenLLMetry",
+              "description": "An open-source set of OpenTelemetry-based SDKs and instrumentations, built by Traceloop, for LLM apps.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 686364232,
+                "language": "Python",
+                "last_commit": "2026-08-10T08:49:01Z",
+                "owner": "traceloop",
+                "repo": "openllmetry",
+                "stars": 7384
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenTelemetry GenAI Semantic Conventions",
+              "description": "OpenTelemetry's GenAI Semantic Conventions define the vendor-neutral token, cost, and cache attribute names that OpenLLMetry and Phoenix both converge on.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1229425836,
+                "language": "Python",
+                "last_commit": "2026-08-17T00:44:50Z",
+                "owner": "open-telemetry",
+                "repo": "semantic-conventions-genai",
+                "stars": 263
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "OTel for LLMs"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Opik",
+              "description": "Comet's open-source (Apache-2.0) LLM observability platform, with per-span USD cost estimated from token usage.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 638951438,
+                "language": "Python",
+                "last_commit": "2026-08-19T11:47:33Z",
+                "owner": "comet-ml",
+                "repo": "opik",
+                "stars": 21471
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Arize Phoenix",
+              "description": "A source-available (Elastic License 2.0) LLM tracing platform recording per-span token counts and USD cost via OpenTelemetry.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 564072810,
+                "language": "Python",
+                "last_commit": "2026-08-19T10:58:26Z",
+                "owner": "Arize-ai",
+                "repo": "phoenix",
+                "stars": 11108
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "claude-tap",
+              "description": "A local trace viewer intercepting API traffic from 14+ coding agents, showing per-request token breakdowns: input, output, cache read, cache creation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1158479469,
+                "language": "Python",
+                "last_commit": "2026-08-19T10:19:38Z",
+                "owner": "liaohch3",
+                "repo": "claude-tap",
+                "stars": 3093
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tracing"
+        }
+      ],
       "title": "Monitor"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "CodexBar",
-          "description": "A free, open-source macOS menu-bar app that shows limits and reset timers at a glance across dozens of AI providers, plus credit balances and spending.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Swift",
-            "last_commit": "2026-08-18T15:26:46Z",
-            "owner": "steipete",
-            "repo": "CodexBar",
-            "stars": 20285
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "LMCache",
+              "description": "A self-hosted KV-cache layer beneath vLLM, giving token-level cache-hit observability for teams who own their GPUs, not a hosted bill.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 807305060,
+                "language": "Python",
+                "last_commit": "2026-08-19T11:22:41Z",
+                "owner": "LMCache",
+                "repo": "LMCache",
+                "stars": 11214
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GPTCache",
+              "description": "An open-source semantic cache returning a stored LLM response for a paraphrased repeat query via vector search, skipping the paid call.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 618276831,
+                "language": "Python",
+                "last_commit": "2025-07-11T09:04:36Z",
+                "owner": "zilliztech",
+                "repo": "GPTCache",
+                "stars": 8162
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "prompt-cache",
+              "description": "A Go LLM proxy that adds a three-tier semantic cache: high similarity hits directly, low skips, and a gray zone runs a cheap verification model.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1102156616,
+                "language": "Go",
+                "last_commit": "2026-08-18T10:41:51Z",
+                "owner": "messkan",
+                "repo": "prompt-cache",
+                "stars": 386
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "khazad",
+              "description": "A transport-layer semantic cache for LLM APIs on Redis 8 Vector Sets: it intercepts HTTP traffic with zero application code changes and replays cached responses.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1268474534,
+                "language": "Python",
+                "last_commit": "2026-07-10T13:58:29Z",
+                "owner": "GuglielmoCerri",
+                "repo": "khazad",
+                "stars": 33
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Caching"
         },
         {
-          "node_type": "item",
-          "title": "ccusage",
-          "description": "An open-source CLI that reads local agent logs to report token usage and cost across 15 coding-agent sources, with caching-aware pricing.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-18T15:38:56Z",
-            "owner": "ccusage",
-            "repo": "ccusage",
-            "stars": 18007
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Ollama",
+              "description": "A runtime for running open-weight models like Qwen, DeepSeek, and GLM-5.1 locally, shifting inference onto hardware you already own.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 658928958,
+                "language": "Go",
+                "last_commit": "2026-08-19T03:51:40Z",
+                "owner": "ollama",
+                "repo": "ollama",
+                "stars": 178946
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "llama.cpp",
+              "description": "The foundational open-source (MIT) local LLM inference engine most of the local ecosystem runs on, with an OpenAI-compatible server built in.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 612354784,
+                "language": "C++",
+                "last_commit": "2026-08-19T12:09:32Z",
+                "owner": "ggml-org",
+                "repo": "llama.cpp",
+                "stars": 124656
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Cheap Local Models"
         },
         {
-          "node_type": "item",
-          "title": "CodeBurn",
-          "description": "An open-source tracker for 36 coding tools whose optimize command flags named harness-waste patterns with dollar estimates it later checks against actuals.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T15:44:33Z",
-            "owner": "getagentseal",
-            "repo": "codeburn",
-            "stars": 9506
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "rtk",
+              "description": "A single-binary Rust CLI proxy that intercepts and compresses the output of common dev commands before it reaches an LLM coding agent's context window. Its headline figures are token reduction, not measured cost reduction.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1139971460,
+                "language": "Rust",
+                "last_commit": "2026-08-19T12:12:23Z",
+                "owner": "rtk-ai",
+                "repo": "rtk",
+                "stars": 76617
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "headroom",
+              "description": "An Apache-2.0 context-compression tool for LLM/agent pipelines at 65,698 GitHub stars (2026-08-10), confirmed organic by star-forensics.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1129940957,
+                "language": "Python",
+                "last_commit": "2026-08-19T07:18:30Z",
+                "owner": "headroomlabs-ai",
+                "repo": "headroom",
+                "stars": 66857
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TOON (Token-Oriented Object Notation)",
+              "description": "TOON is a compact, human-readable, lossless serialization of the JSON data model, designed for LLM input.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1081397957,
+                "language": "TypeScript",
+                "last_commit": "2026-08-07T19:54:27Z",
+                "owner": "toon-format",
+                "repo": "toon",
+                "stars": 25200
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Context Mode",
+              "description": "This MCP server sandboxes tool calls and returns only the distilled result, claiming a 98% cut: 315 KB of output down to 5.4 KB.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1164477708,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T12:25:37Z",
+                "owner": "mksglu",
+                "repo": "context-mode",
+                "stars": 19975
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LLMLingua",
+              "description": "Microsoft's prompt-compression library that uses a small model to drop low-information tokens before a prompt reaches the target LLM.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 663368311,
+                "language": "Python",
+                "last_commit": "2026-04-08T18:59:13Z",
+                "owner": "microsoft",
+                "repo": "LLMLingua",
+                "stars": 6582
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "lean-ctx - MCP context layer with a self-measured savings ledger",
+              "description": "Rust MCP server that mediates what a coding agent reads, with a self-measured 60-90% token-reduction headline, a reported quality column, and an accounting of its own context overhead.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1189918673,
+                "language": "Rust",
+                "last_commit": "2026-08-19T12:12:21Z",
+                "owner": "yvgude",
+                "repo": "lean-ctx",
+                "stars": 3599
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "llmtrim",
+              "description": "A local proxy that compresses a coding agent's prompt, tool schemas, and history before forwarding and can reroute Claude calls to Grok.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1262281362,
+                "language": "Rust",
+                "last_commit": "2026-08-17T13:14:36Z",
+                "owner": "fkiene",
+                "repo": "llmtrim",
+                "stars": 213
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Compression"
         },
         {
-          "node_type": "item",
-          "title": "Claude Code Usage Monitor",
-          "description": "A live terminal dashboard for Claude Code usage, with burn-rate analytics, P90 limit detection, and session-expiry forecasts.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-05T04:52:21Z",
-            "owner": "Maciek-roboblog",
-            "repo": "Claude-Code-Usage-Monitor",
-            "stars": 8638
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Codex CLI compaction cost - over-eager compaction as a token-amplification loop",
+              "description": "Upgrading Codex CLI from v0.116 to v0.118 made context compaction fire twice as often, doubling or tripling token consumption for identical tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 965415649,
+                "language": "Rust",
+                "last_commit": "2026-08-19T12:06:28Z",
+                "owner": "openai",
+                "repo": "codex",
+                "stars": 106800
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Serena",
+              "description": "An open-source (MIT) MCP toolkit that gives a coding agent IDE-grade semantic code retrieval and editing: 'the IDE for your coding agent'.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 953683578,
+                "language": "Python",
+                "last_commit": "2026-08-18T07:47:19Z",
+                "owner": "oraios",
+                "repo": "serena",
+                "stars": 28225
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Repomix",
+              "description": "Packs an entire repository into a single AI-friendly file, reporting token counts and using Tree-sitter to compress code to signatures only.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 828119367,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T15:50:21Z",
+                "owner": "yamadashy",
+                "repo": "repomix",
+                "stars": 27956
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RULER",
+              "description": "NVIDIA's RULER benchmark found that of models claiming 32K+ token context windows, only half actually maintain quality once you fill them to 32K.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 784470957,
+                "language": "Python",
+                "last_commit": "2026-07-22T17:32:53Z",
+                "owner": "NVIDIA",
+                "repo": "RULER",
+                "stars": 1606
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Context Engineering"
         },
         {
-          "node_type": "item",
-          "title": "gh-aw (GitHub Agentic Workflows)",
-          "description": "GitHub's agentic-workflows runtime with first-party per-run token and cost metering, plus budget caps that stop a workflow mid-run.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T16:16:14Z",
-            "owner": "github",
-            "repo": "gh-aw",
-            "stars": 4954
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "LiteLLM",
+              "description": "An open-source gateway fronting 100+ LLM APIs that computes real per-request dollar cost from a live pricing map, with spend limits.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 671269505,
+                "language": "Python",
+                "last_commit": "2026-08-19T09:52:35Z",
+                "owner": "BerriAI",
+                "repo": "litellm",
+                "stars": 56734
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Bifrost (Maxim AI)",
+              "description": "Bifrost is a Go-based AI gateway fronting 1,000+ models that measured just 11 microseconds of added latency per request at 5,000 requests per second.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 951115072,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:14:52Z",
+                "owner": "maximhq",
+                "repo": "bifrost",
+                "stars": 7425
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Gateways and Proxies"
         },
         {
-          "node_type": "item",
-          "title": "OpenUsage",
-          "description": "A native Swift macOS menu-bar meter for 10 AI coding subscriptions, showing session and weekly limits, credits, and estimated spend from local credentials.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Swift",
-            "last_commit": "2026-08-15T17:51:15Z",
-            "owner": "robinebers",
-            "repo": "openusage",
-            "stars": 3816
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "claude-mem",
+              "description": "A coding-agent observational-memory layer that captures every session, compresses it with AI, and re-injects relevant context next time.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1048065319,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T11:46:59Z",
+                "owner": "thedotmack",
+                "repo": "claude-mem",
+                "stars": 91222
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Mem0",
+              "description": "An open-source memory layer that extracts salient facts from conversations and retrieves only the relevant ones per call, not the full history.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 656099147,
+                "language": "Python",
+                "last_commit": "2026-08-18T15:51:45Z",
+                "owner": "mem0ai",
+                "repo": "mem0",
+                "stars": 63590
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cognee",
+              "description": "An open-source (Apache-2.0) AI-memory platform giving agents persistent memory via a self-hosted knowledge graph, via remember/recall/forget.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 679343504,
+                "language": "Python",
+                "last_commit": "2026-08-19T11:41:21Z",
+                "owner": "topoteretes",
+                "repo": "cognee",
+                "stars": 30112
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Zep / Graphiti",
+              "description": "A memory platform for agents built on temporal knowledge graphs; it self-reports serving benchmark answers from a few thousand tokens of retrieved context. (also: Graphiti (OSS engine) · zep repo)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 840056306,
+                "language": "Python",
+                "last_commit": "2026-08-18T16:24:04Z",
+                "owner": "getzep",
+                "repo": "graphiti",
+                "stars": 30085
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Supermemory",
+              "description": "A memory and context engine that self-reports 95% recall on LongMemEval while adding only ~720 tokens of context.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 764287615,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T04:00:48Z",
+                "owner": "supermemoryai",
+                "repo": "supermemory",
+                "stars": 28956
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Letta (MemGPT)",
+              "description": "The MemGPT lineage project: a platform for stateful agents that pages an LLM's context like an OS.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 703411624,
+                "language": null,
+                "last_commit": "2026-08-16T03:56:11Z",
+                "owner": "letta-ai",
+                "repo": "letta",
+                "stars": 24299
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LangMem",
+              "description": "LangChain's long-term memory library: it extracts and consolidates facts from conversations and integrates natively with LangGraph's memory store.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 920242883,
+                "language": "Python",
+                "last_commit": "2026-08-11T00:18:37Z",
+                "owner": "langchain-ai",
+                "repo": "langmem",
+                "stars": 1618
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "claude-code-memory-setup",
+              "description": "A practitioner recipe pairing an Obsidian memory vault with a local AST code-graph tool.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1208877755,
+                "language": "Python",
+                "last_commit": "2026-06-01T18:06:01Z",
+                "owner": "lucasrosati",
+                "repo": "claude-code-memory-setup",
+                "stars": 941
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Memory"
         },
         {
-          "node_type": "item",
-          "title": "OpenLIT",
-          "description": "An open-source (Apache-2.0), OpenTelemetry-native platform with a self-hosted dashboard for LLM cost, token, and latency observability.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T10:35:57Z",
-            "owner": "openlit",
-            "repo": "openlit",
-            "stars": 2697
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "PageIndex",
+              "description": "Vectorless RAG engine that builds a hierarchical tree index over long documents and has an LLM reason over the index instead of embedding chunks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 958531089,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:45:58Z",
+                "owner": "VectifyAI",
+                "repo": "PageIndex",
+                "stars": 35245
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Signet AI",
+              "description": "Local-first memory and context layer that syncs memories, transcripts and secrets across Claude Code, Codex, OpenCode and other harnesses.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1155093426,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T07:45:06Z",
+                "owner": "Signet-AI",
+                "repo": "signetai",
+                "stars": 251
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Retrieval Memory"
         },
         {
-          "node_type": "item",
-          "title": "claude-usage",
-          "description": "A local dashboard for Claude Code token usage, costs, and session history; Pro and Max subscribers get a quota progress bar.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-10T10:08:48Z",
-            "owner": "phuryn",
-            "repo": "claude-usage",
-            "stars": 2151
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "ruflo (formerly Claude-Flow) - cost-adjusted model routing",
+              "description": "ruflo is an open-source agent meta-harness for Claude Code and Codex, providing swarm orchestration and persistent memory. Ships on npm as (v3.17.0).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 995029641,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T06:22:54Z",
+                "owner": "ruvnet",
+                "repo": "ruflo",
+                "stars": 68280
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Claude Code Router",
+              "description": "A local gateway that puts Claude Code, Codex, and other coding CLIs behind one endpoint and routes each request by ordered condition rules, Node.js script rules, or a prompt tag that lets the agent pick a model per subagent. The project publishes no savings figure, and routing scripts run as fully trusted code next to your credentials - only use scripts you wrote yourself.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 938468965,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T09:58:28Z",
+                "owner": "musistudio",
+                "repo": "claude-code-router",
+                "stars": 36725
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Plano (formerly archgw)",
+              "description": "An Envoy-based proxy whose router matches queries to user-defined domains and actions via a small routing model, rather than picking by benchmark rank. Since July 2026 it also prices the warm cache a model switch would discard, and vetoes switches once their cumulative cost passes a configured overhead cap.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 826498000,
+                "language": "Rust",
+                "last_commit": "2026-08-18T20:55:31Z",
+                "owner": "katanemo",
+                "repo": "plano",
+                "stars": 7003
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RouteLLM",
+              "description": "LMSYS's open-source router sending each query to a cheap or expensive model based on a trained cost threshold, as a drop-in server.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 809559722,
+                "language": "Python",
+                "last_commit": "2024-08-10T19:10:15Z",
+                "owner": "lm-sys",
+                "repo": "RouteLLM",
+                "stars": 5367
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "vLLM Semantic Router",
+              "description": "Sends routine queries to cheap or local models and hard ones to stronger backends, as an open-source, self-hostable router.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1045247072,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:14:37Z",
+                "owner": "vllm-project",
+                "repo": "semantic-router",
+                "stars": 5182
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Antigravity CLI - per-subagent model-tier routing + /effort (v1.1.5)",
+              "description": "Antigravity CLI v1.1.5 shipped first-party per-subagent model-tier routing (a model: flash|pro field in custom-agent frontmatter) plus an /effort control.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1237979735,
+                "language": null,
+                "last_commit": "2026-08-19T04:11:35Z",
+                "owner": "google-antigravity",
+                "repo": "antigravity-cli",
+                "stars": 1951
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Weave Router",
+              "description": "A drop-in proxy that picks a model for every request with an on-box embedding cluster scorer derived from Avengers-Pro, speaking all three provider APIs (BYOK, OTLP traces, one-command setup for Claude Code, Codex, and opencode). Source-available under Elastic License 2.0, which bars offering it as a hosted service; its cost-reduction figures are vendor-reported, not independently measured.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1222789989,
+                "language": "Go",
+                "last_commit": "2026-08-18T23:57:32Z",
+                "owner": "workweave",
+                "repo": "router",
+                "stars": 967
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "NadirClaw - a pre-router proxy, with its benchmark attached to the paid tier",
+              "description": "An OpenAI-compatible pre-router proxy for coding harnesses: a ~10ms embedding classifier picks the cheapest model predicted to answer, verifies the answer against quality heuristics, and escalates on failure. Its committed RouterBench numbers belong to the paid Nadir Pro classifier, not the free OSS one.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1155005282,
+                "language": "Python",
+                "last_commit": "2026-08-12T13:42:14Z",
+                "owner": "NadirRouter",
+                "repo": "NadirClaw",
+                "stars": 643
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "opencode-fusion",
+              "description": "An OpenCode config layer that denies the main agent's edit and search tools so they are removed from its tool schema entirely, forcing every file change through a cheaper sidekick agent. Model assignments are fixed per role at startup, and the project publishes no savings measurement of its own.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1285223817,
+                "language": "JavaScript",
+                "last_commit": "2026-08-06T16:56:39Z",
+                "owner": "mihneaptu",
+                "repo": "opencode-fusion",
+                "stars": 214
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Harness-native heuristic pre-routers - two mechanism-only per-turn routers",
+              "description": "Two mechanism-only heuristic per-turn routers - one for the pi coding agent, one an OpenCode plugin - route each turn to a model tier by keyword and word-count heuristics. Neither ships a measured savings number, and the OpenCode entry's headline percentage is an assumed-inputs arithmetic simulation, not telemetry. (also: opencode-model-router)",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1209616748,
+                "language": "TypeScript",
+                "last_commit": "2026-07-20T14:52:51Z",
+                "owner": "yeliu84",
+                "repo": "pi-model-router",
+                "stars": 57
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Routing Model Selection"
         },
         {
-          "node_type": "item",
-          "title": "ClaudeBar",
-          "description": "A macOS menu-bar app that monitors AI coding quotas across 11 providers; the README declares MIT but ships no license file, so the OSS grant is unconfirmed.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Swift",
-            "last_commit": "2026-08-18T13:13:32Z",
-            "owner": "tddworks",
-            "repo": "ClaudeBar",
-            "stars": 1424
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Firecrawl",
+              "description": "A web scraping API that converts pages to markdown or structured JSON before they reach the model, billed at 1 credit per page.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 787076358,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:05:31Z",
+                "owner": "firecrawl",
+                "repo": "firecrawl",
+                "stars": 169406
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Valyu",
+              "description": "A search and deep-research API whose cost-versus-accuracy results on the third-party DRACO benchmark ship with an open harness, raw outputs and per-provider runners; the harness repo carries no license file.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1072526999,
+                "language": "Python",
+                "last_commit": "2026-05-04T22:20:15Z",
+                "owner": "valyuAI",
+                "repo": "valyu-benchmarks",
+                "stars": 13
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Search and Retrieval Boundary"
         },
         {
-          "node_type": "item",
-          "title": "TokenTracker",
-          "description": "A local-first token and cost dashboard for 27 coding tools, with a desktop pet, native widgets, and achievements as a distinct gamified take on usage metering.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T04:24:37Z",
-            "owner": "xiufengsun",
-            "repo": "TokenTracker",
-            "stars": 1360
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "CodeZeno Usage Monitor",
-          "description": "A Windows taskbar widget showing real-time Claude Code quota and usage at a glance, without opening a terminal.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T07:48:35Z",
-            "owner": "CodeZeno",
-            "repo": "Claude-Code-Usage-Monitor",
-            "stars": 399
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Codex Usage Tracker",
-          "description": "A local-first dashboard, CLI, and MCP tools indexing Codex CLI logs into SQLite to show where tokens, credits, and cost go, including cache ratios.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-12T19:11:41Z",
-            "owner": "douglasmonsky",
-            "repo": "codex-usage-tracker",
-            "stars": 194
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "vLLM",
+              "description": "The canonical open-source LLM serving engine, using PagedAttention to manage KV-cache memory in blocks so more requests batch at lower cost.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 599547518,
+                "language": "Python",
+                "last_commit": "2026-08-19T11:38:35Z",
+                "owner": "vllm-project",
+                "repo": "vllm",
+                "stars": 89433
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SGLang",
+              "description": "A high-performance serving framework for large language and multimodal models.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 740303686,
+                "language": "Python",
+                "last_commit": "2026-08-19T12:12:53Z",
+                "owner": "sgl-project",
+                "repo": "sglang",
+                "stars": 32097
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Serving Inference"
         }
       ],
-      "title": "Dashboards"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "OpenLLMetry",
-          "description": "An open-source set of OpenTelemetry-based SDKs and instrumentations, built by Traceloop, for LLM apps.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-10T08:49:01Z",
-            "owner": "traceloop",
-            "repo": "openllmetry",
-            "stars": 7381
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "OpenTelemetry GenAI Semantic Conventions",
-          "description": "OpenTelemetry's GenAI Semantic Conventions define the vendor-neutral token, cost, and cache attribute names that OpenLLMetry and Phoenix both converge on.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T00:44:50Z",
-            "owner": "open-telemetry",
-            "repo": "semantic-conventions-genai",
-            "stars": 259
-          }
-        }
-      ],
-      "title": "OTel for LLMs"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Opik",
-          "description": "Comet's open-source (Apache-2.0) LLM observability platform, with per-span USD cost estimated from token usage.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T15:24:14Z",
-            "owner": "comet-ml",
-            "repo": "opik",
-            "stars": 21446
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Arize Phoenix",
-          "description": "A source-available (Elastic License 2.0) LLM tracing platform recording per-span token counts and USD cost via OpenTelemetry.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T16:05:37Z",
-            "owner": "Arize-ai",
-            "repo": "phoenix",
-            "stars": 11096
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "claude-tap",
-          "description": "A local trace viewer intercepting API traffic from 14+ coding agents, showing per-request token breakdowns: input, output, cache read, cache creation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T16:37:27Z",
-            "owner": "liaohch3",
-            "repo": "claude-tap",
-            "stars": 3078
-          }
-        }
-      ],
-      "title": "Tracing"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Optimize"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "LMCache",
-          "description": "A self-hosted KV-cache layer beneath vLLM, giving token-level cache-hit observability for teams who own their GPUs, not a hosted bill.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T10:58:52Z",
-            "owner": "LMCache",
-            "repo": "LMCache",
-            "stars": 11199
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CodeCarbon",
+              "description": "An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 263364731,
+                "language": "Python",
+                "last_commit": "2026-08-19T10:05:20Z",
+                "owner": "mlco2",
+                "repo": "codecarbon",
+                "stars": 1898
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "EcoLogits",
+              "description": "Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 751927947,
+                "language": "Python",
+                "last_commit": "2026-08-09T06:40:24Z",
+                "owner": "mlco2",
+                "repo": "ecologits",
+                "stars": 314
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Energy Carbon"
         },
         {
-          "node_type": "item",
-          "title": "GPTCache",
-          "description": "An open-source semantic cache returning a stored LLM response for a paraphrased repeat query via vector search, skipping the paid call.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-07-11T09:04:36Z",
-            "owner": "zilliztech",
-            "repo": "GPTCache",
-            "stars": 8160
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "prompt-cache",
-          "description": "A Go LLM proxy that adds a three-tier semantic cache: high similarity hits directly, low skips, and a gray zone runs a cheap verification model.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T10:41:51Z",
-            "owner": "messkan",
-            "repo": "prompt-cache",
-            "stars": 386
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "khazad",
-          "description": "A transport-layer semantic cache for LLM APIs on Redis 8 Vector Sets: it intercepts HTTP traffic with zero application code changes and replays cached responses.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-10T13:58:29Z",
-            "owner": "GuglielmoCerri",
-            "repo": "khazad",
-            "stars": 33
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AEGIS",
+              "description": "An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1172197625,
+                "language": "TypeScript",
+                "last_commit": "2026-08-15T09:24:12Z",
+                "owner": "Justin0504",
+                "repo": "Aegis",
+                "stars": 331
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ActPlane",
+              "description": "An eBPF-based, OS-level policy-enforcement engine for AI-agent harnesses like Claude Code and Codex.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1247115218,
+                "language": "C",
+                "last_commit": "2026-08-14T09:15:45Z",
+                "owner": "eunomia-bpf",
+                "repo": "ActPlane",
+                "stars": 91
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MCPGuard-Dynamic",
+              "description": "An early-stage, research-grade kernel-level eBPF sandbox for MCP (64★), published under Meta's official GitHub org.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1243962929,
+                "language": "C",
+                "last_commit": "2026-07-22T01:10:58Z",
+                "owner": "facebook",
+                "repo": "mcpguard-dynamic",
+                "stars": 71
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Policy Enforcement"
         }
       ],
-      "title": "Caching"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Ollama",
-          "description": "A runtime for running open-weight models like Qwen, DeepSeek, and GLM-5.1 locally, shifting inference onto hardware you already own.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-16T16:49:36Z",
-            "owner": "ollama",
-            "repo": "ollama",
-            "stars": 178875
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "llama.cpp",
-          "description": "The foundational open-source (MIT) local LLM inference engine most of the local ecosystem runs on, with an OpenAI-compatible server built in.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-18T15:38:57Z",
-            "owner": "ggml-org",
-            "repo": "llama.cpp",
-            "stars": 124507
-          }
-        }
-      ],
-      "title": "Cheap Local Models"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "rtk",
-          "description": "A single-binary Rust CLI proxy that intercepts and compresses the output of common dev commands before it reaches an LLM coding agent's context window. Its headline figures are token reduction, not measured cost reduction.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T01:10:18Z",
-            "owner": "rtk-ai",
-            "repo": "rtk",
-            "stars": 76494
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "headroom",
-          "description": "An Apache-2.0 context-compression tool for LLM/agent pipelines at 65,698 GitHub stars (2026-08-10), confirmed organic by star-forensics.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T14:18:33Z",
-            "owner": "headroomlabs-ai",
-            "repo": "headroom",
-            "stars": 66763
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TOON (Token-Oriented Object Notation)",
-          "description": "TOON is a compact, human-readable, lossless serialization of the JSON data model, designed for LLM input.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-07T19:54:27Z",
-            "owner": "toon-format",
-            "repo": "toon",
-            "stars": 25198
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Context Mode",
-          "description": "This MCP server sandboxes tool calls and returns only the distilled result, claiming a 98% cut: 315 KB of output down to 5.4 KB.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T12:25:37Z",
-            "owner": "mksglu",
-            "repo": "context-mode",
-            "stars": 19947
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LLMLingua",
-          "description": "Microsoft's prompt-compression library that uses a small model to drop low-information tokens before a prompt reaches the target LLM.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-08T18:59:13Z",
-            "owner": "microsoft",
-            "repo": "LLMLingua",
-            "stars": 6578
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "lean-ctx - MCP context layer with a self-measured savings ledger",
-          "description": "Rust MCP server that mediates what a coding agent reads, with a self-measured 60-90% token-reduction headline, a reported quality column, and an accounting of its own context overhead.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-18T13:25:13Z",
-            "owner": "yvgude",
-            "repo": "lean-ctx",
-            "stars": 3591
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "llmtrim",
-          "description": "A local proxy that compresses a coding agent's prompt, tool schemas, and history before forwarding and can reroute Claude calls to Grok.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T13:14:36Z",
-            "owner": "fkiene",
-            "repo": "llmtrim",
-            "stars": 213
-          }
-        }
-      ],
-      "title": "Compression"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Codex CLI compaction cost - over-eager compaction as a token-amplification loop",
-          "description": "Upgrading Codex CLI from v0.116 to v0.118 made context compaction fire twice as often, doubling or tripling token consumption for identical tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-18T16:08:15Z",
-            "owner": "openai",
-            "repo": "codex",
-            "stars": 106654
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Serena",
-          "description": "An open-source (MIT) MCP toolkit that gives a coding agent IDE-grade semantic code retrieval and editing: 'the IDE for your coding agent'.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T07:47:19Z",
-            "owner": "oraios",
-            "repo": "serena",
-            "stars": 28188
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Repomix",
-          "description": "Packs an entire repository into a single AI-friendly file, reporting token counts and using Tree-sitter to compress code to signatures only.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T15:50:21Z",
-            "owner": "yamadashy",
-            "repo": "repomix",
-            "stars": 27930
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RULER",
-          "description": "NVIDIA's RULER benchmark found that of models claiming 32K+ token context windows, only half actually maintain quality once you fill them to 32K.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-22T17:32:53Z",
-            "owner": "NVIDIA",
-            "repo": "RULER",
-            "stars": 1606
-          }
-        }
-      ],
-      "title": "Context Engineering"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "LiteLLM",
-          "description": "An open-source gateway fronting 100+ LLM APIs that computes real per-request dollar cost from a live pricing map, with spend limits.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T16:05:57Z",
-            "owner": "BerriAI",
-            "repo": "litellm",
-            "stars": 56656
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Bifrost (Maxim AI)",
-          "description": "Bifrost is a Go-based AI gateway fronting 1,000+ models that measured just 11 microseconds of added latency per request at 5,000 requests per second.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T16:15:06Z",
-            "owner": "maximhq",
-            "repo": "bifrost",
-            "stars": 7400
-          }
-        }
-      ],
-      "title": "Gateways and Proxies"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "claude-mem",
-          "description": "A coding-agent observational-memory layer that captures every session, compresses it with AI, and re-injects relevant context next time.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T15:32:24Z",
-            "owner": "thedotmack",
-            "repo": "claude-mem",
-            "stars": 91119
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Mem0",
-          "description": "An open-source memory layer that extracts salient facts from conversations and retrieves only the relevant ones per call, not the full history.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T15:51:45Z",
-            "owner": "mem0ai",
-            "repo": "mem0",
-            "stars": 63530
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Cognee",
-          "description": "An open-source (Apache-2.0) AI-memory platform giving agents persistent memory via a self-hosted knowledge graph, via remember/recall/forget.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T15:27:38Z",
-            "owner": "topoteretes",
-            "repo": "cognee",
-            "stars": 30102
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Zep / Graphiti",
-          "description": "A memory platform for agents built on temporal knowledge graphs; it self-reports serving benchmark answers from a few thousand tokens of retrieved context. (also: Graphiti (OSS engine) · zep repo)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T13:27:30Z",
-            "owner": "getzep",
-            "repo": "graphiti",
-            "stars": 30053
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Supermemory",
-          "description": "A memory and context engine that self-reports 95% recall on LongMemEval while adding only ~720 tokens of context.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T16:00:14Z",
-            "owner": "supermemoryai",
-            "repo": "supermemory",
-            "stars": 28947
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Letta (MemGPT)",
-          "description": "The MemGPT lineage project: a platform for stateful agents that pages an LLM's context like an OS.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-08-16T03:56:11Z",
-            "owner": "letta-ai",
-            "repo": "letta",
-            "stars": 24294
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LangMem",
-          "description": "LangChain's long-term memory library: it extracts and consolidates facts from conversations and integrates natively with LangGraph's memory store.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-11T00:18:37Z",
-            "owner": "langchain-ai",
-            "repo": "langmem",
-            "stars": 1615
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "claude-code-memory-setup",
-          "description": "A practitioner recipe pairing an Obsidian memory vault with a local AST code-graph tool.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-01T18:06:01Z",
-            "owner": "lucasrosati",
-            "repo": "claude-code-memory-setup",
-            "stars": 940
-          }
-        }
-      ],
-      "title": "Memory"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "PageIndex",
-          "description": "Vectorless RAG engine that builds a hierarchical tree index over long documents and has an LLM reason over the index instead of embedding chunks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T09:10:46Z",
-            "owner": "VectifyAI",
-            "repo": "PageIndex",
-            "stars": 35230
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Signet AI",
-          "description": "Local-first memory and context layer that syncs memories, transcripts and secrets across Claude Code, Codex, OpenCode and other harnesses.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T13:05:46Z",
-            "owner": "Signet-AI",
-            "repo": "signetai",
-            "stars": 251
-          }
-        }
-      ],
-      "title": "Retrieval Memory"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "ruflo (formerly Claude-Flow) - cost-adjusted model routing",
-          "description": "ruflo is an open-source agent meta-harness for Claude Code and Codex, providing swarm orchestration and persistent memory. Ships on npm as (v3.17.0).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T13:50:37Z",
-            "owner": "ruvnet",
-            "repo": "ruflo",
-            "stars": 68182
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Claude Code Router",
-          "description": "A local gateway that puts Claude Code, Codex, and other coding CLIs behind one endpoint and routes each request by ordered condition rules, Node.js script rules, or a prompt tag that lets the agent pick a model per subagent. The project publishes no savings figure, and routing scripts run as fully trusted code next to your credentials - only use scripts you wrote yourself.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T07:46:43Z",
-            "owner": "musistudio",
-            "repo": "claude-code-router",
-            "stars": 36709
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Plano (formerly archgw)",
-          "description": "An Envoy-based proxy whose router matches queries to user-defined domains and actions via a small routing model, rather than picking by benchmark rank. Since July 2026 it also prices the warm cache a model switch would discard, and vetoes switches once their cumulative cost passes a configured overhead cap.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T23:41:51Z",
-            "owner": "katanemo",
-            "repo": "plano",
-            "stars": 7004
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RouteLLM",
-          "description": "LMSYS's open-source router sending each query to a cheap or expensive model based on a trained cost threshold, as a drop-in server.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-08-10T19:10:15Z",
-            "owner": "lm-sys",
-            "repo": "RouteLLM",
-            "stars": 5361
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "vLLM Semantic Router",
-          "description": "Sends routine queries to cheap or local models and hard ones to stronger backends, as an open-source, self-hostable router.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T15:44:22Z",
-            "owner": "vllm-project",
-            "repo": "semantic-router",
-            "stars": 5177
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Antigravity CLI - per-subagent model-tier routing + /effort (v1.1.5)",
-          "description": "Antigravity CLI v1.1.5 shipped first-party per-subagent model-tier routing (a model: flash|pro field in custom-agent frontmatter) plus an /effort control.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-08-18T04:32:27Z",
-            "owner": "google-antigravity",
-            "repo": "antigravity-cli",
-            "stars": 1946
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Weave Router",
-          "description": "A drop-in proxy that picks a model for every request with an on-box embedding cluster scorer derived from Avengers-Pro, speaking all three provider APIs (BYOK, OTLP traces, one-command setup for Claude Code, Codex, and opencode). Source-available under Elastic License 2.0, which bars offering it as a hosted service; its cost-reduction figures are vendor-reported, not independently measured.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T15:52:50Z",
-            "owner": "workweave",
-            "repo": "router",
-            "stars": 965
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "NadirClaw - a pre-router proxy, with its benchmark attached to the paid tier",
-          "description": "An OpenAI-compatible pre-router proxy for coding harnesses: a ~10ms embedding classifier picks the cheapest model predicted to answer, verifies the answer against quality heuristics, and escalates on failure. Its committed RouterBench numbers belong to the paid Nadir Pro classifier, not the free OSS one.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-12T13:42:14Z",
-            "owner": "NadirRouter",
-            "repo": "NadirClaw",
-            "stars": 642
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "opencode-fusion",
-          "description": "An OpenCode config layer that denies the main agent's edit and search tools so they are removed from its tool schema entirely, forcing every file change through a cheaper sidekick agent. Model assignments are fixed per role at startup, and the project publishes no savings measurement of its own.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-06T16:56:39Z",
-            "owner": "mihneaptu",
-            "repo": "opencode-fusion",
-            "stars": 213
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Harness-native heuristic pre-routers - two mechanism-only per-turn routers",
-          "description": "Two mechanism-only heuristic per-turn routers - one for the pi coding agent, one an OpenCode plugin - route each turn to a model tier by keyword and word-count heuristics. Neither ships a measured savings number, and the OpenCode entry's headline percentage is an assumed-inputs arithmetic simulation, not telemetry. (also: opencode-model-router)",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-07-20T14:52:51Z",
-            "owner": "yeliu84",
-            "repo": "pi-model-router",
-            "stars": 57
-          }
-        }
-      ],
-      "title": "Routing Model Selection"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Firecrawl",
-          "description": "A web scraping API that converts pages to markdown or structured JSON before they reach the model, billed at 1 credit per page.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T15:15:06Z",
-            "owner": "firecrawl",
-            "repo": "firecrawl",
-            "stars": 168991
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Valyu",
-          "description": "A search and deep-research API whose cost-versus-accuracy results on the third-party DRACO benchmark ship with an open harness, raw outputs and per-provider runners; the harness repo carries no license file.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-05-04T22:20:15Z",
-            "owner": "valyuAI",
-            "repo": "valyu-benchmarks",
-            "stars": 13
-          }
-        }
-      ],
-      "title": "Search and Retrieval Boundary"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "vLLM",
-          "description": "The canonical open-source LLM serving engine, using PagedAttention to manage KV-cache memory in blocks so more requests batch at lower cost.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T16:16:25Z",
-            "owner": "vllm-project",
-            "repo": "vllm",
-            "stars": 89360
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SGLang",
-          "description": "A high-performance serving framework for large language and multimodal models.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T16:16:12Z",
-            "owner": "sgl-project",
-            "repo": "sglang",
-            "stars": 32029
-          }
-        }
-      ],
-      "title": "Serving Inference"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Govern"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "CodeCarbon",
-          "description": "An open-source (MIT) library for estimating a workload's energy use and CO2e emissions, and ML's widely-cited carbon baseline.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T14:57:23Z",
-            "owner": "mlco2",
-            "repo": "codecarbon",
-            "stars": 1897
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "EcoLogits",
-          "description": "Estimates the energy and carbon footprint of calling generative-AI APIs: the hosted counterpart to CodeCarbon, which measures your own hardware.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-09T06:40:24Z",
-            "owner": "mlco2",
-            "repo": "ecologits",
-            "stars": 313
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenHands - MIT OSS coding agent, free local + free cloud tier, at-cost LLM option",
+              "description": "An MIT-licensed open-source coding-agent platform with a free local mode, a free cloud tier, and an at-cost LLM pricing option.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 771302083,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:13:05Z",
+                "owner": "OpenHands",
+                "repo": "OpenHands",
+                "stars": 84466
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cline - an OSS coding agent on a bring-your-own-key cost model",
+              "description": "An open-source AI coding agent (Apache-2.0, ~65k★, ~4.8M VS Code installs), built on a bring-your-own-API-key cost model.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 824874689,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T11:32:56Z",
+                "owner": "cline",
+                "repo": "cline",
+                "stars": 66465
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Aider - an OSS coding CLI that meters its own dollar cost",
+              "description": "An open-source terminal coding agent (Apache-2.0, ~48k★) with built-in per-message dollar-cost tracking and a public polyglot leaderboard.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 638629097,
+                "language": "Python",
+                "last_commit": "2026-05-22T14:02:20Z",
+                "owner": "Aider-AI",
+                "repo": "aider",
+                "stars": 48324
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Market Competitors"
         }
       ],
-      "title": "Energy Carbon"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "AEGIS",
-          "description": "An open-source (MIT) pre-execution firewall and cryptographic audit layer for AI agents.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-15T09:24:12Z",
-            "owner": "Justin0504",
-            "repo": "Aegis",
-            "stars": 331
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ActPlane",
-          "description": "An eBPF-based, OS-level policy-enforcement engine for AI-agent harnesses like Claude Code and Codex.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-08-14T09:15:45Z",
-            "owner": "eunomia-bpf",
-            "repo": "ActPlane",
-            "stars": 90
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MCPGuard-Dynamic",
-          "description": "An early-stage, research-grade kernel-level eBPF sandbox for MCP (64★), published under Meta's official GitHub org.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-07-22T01:10:58Z",
-            "owner": "facebook",
-            "repo": "mcpguard-dynamic",
-            "stars": 71
-          }
-        }
-      ],
-      "title": "Policy Enforcement"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Understand"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "OpenHands - MIT OSS coding agent, free local + free cloud tier, at-cost LLM option",
-          "description": "An MIT-licensed open-source coding-agent platform with a free local mode, a free cloud tier, and an at-cost LLM pricing option.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T15:00:48Z",
-            "owner": "OpenHands",
-            "repo": "OpenHands",
-            "stars": 84403
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "promptfoo",
+              "description": "An open-source CLI/CI harness for testing LLM prompts and agents that records per-eval token usage and cost as an assertable metric.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 633927609,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T22:33:59Z",
+                "owner": "promptfoo",
+                "repo": "promptfoo",
+                "stars": 24370
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SWE-bench",
+              "description": "The canonical accuracy-only software-engineering benchmark (2,294 real GitHub issue tasks, 12 Python repos, ICLR 2024). The cost-aware derivatives in this list build on it.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 700117650,
+                "language": "Python",
+                "last_commit": "2026-08-18T23:53:40Z",
+                "owner": "SWE-bench",
+                "repo": "SWE-bench",
+                "stars": 5667
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LoCoMo",
+              "description": "Snap Research's very-long-term conversational-memory benchmark; the canonical dataset that Mem0, Zep, and Supermemory all cite, kept as a background instrument.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 762416453,
+                "language": "Python",
+                "last_commit": "2024-08-13T03:21:32Z",
+                "owner": "snap-research",
+                "repo": "locomo",
+                "stars": 1112
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LongMemEval",
+              "description": "The peer-reviewed (ICLR 2025) benchmark for long-term memory in chat assistants.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 870849341,
+                "language": "Python",
+                "last_commit": "2026-05-11T22:49:24Z",
+                "owner": "xiaowu0162",
+                "repo": "LongMemEval",
+                "stars": 1012
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MemoryBench",
+              "description": "A pluggable harness to run memory systems (Supermemory, Mem0, Zep) head-to-head across datasets like LoCoMo; useful for standardizing comparison.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1058345373,
+                "language": "TypeScript",
+                "last_commit": "2026-08-14T16:08:57Z",
+                "owner": "supermemoryai",
+                "repo": "memorybench",
+                "stars": 307
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RouterArena",
+              "description": "An open evaluation platform and live leaderboard for LLM routers - systems that auto-select a model per query.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1070347237,
+                "language": "Python",
+                "last_commit": "2026-08-05T07:34:50Z",
+                "owner": "RouteWorks",
+                "repo": "RouterArena",
+                "stars": 121
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Claw-SWE-Bench",
+              "description": "Found that adapter/harness design alone swings an agent's Pass@1 score by about 54 percentage points on the identical model backbone.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1265200861,
+                "language": "Python",
+                "last_commit": "2026-07-01T16:43:14Z",
+                "owner": "opensquilla",
+                "repo": "claw-swe-bench",
+                "stars": 93
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Benchmarks Evals"
         },
         {
-          "node_type": "item",
-          "title": "Cline - an OSS coding agent on a bring-your-own-key cost model",
-          "description": "An open-source AI coding agent (Apache-2.0, ~65k★, ~4.8M VS Code installs), built on a bring-your-own-API-key cost model.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T14:56:55Z",
-            "owner": "cline",
-            "repo": "cline",
-            "stars": 66410
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Multi-vendor system-prompt and tool-schema corpus (x1xhlol)",
+              "description": "A 35-vendor collection of extracted agent system prompts with separate tool-schema JSON files (Claude Code's Tools.json alone is 48,962 bytes), published as raw text with no token counts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 943398999,
+                "language": null,
+                "last_commit": "2026-08-11T13:01:09Z",
+                "owner": "x1xhlol",
+                "repo": "system-prompts-and-models-of-ai-tools",
+                "stars": 142922
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Multi-vendor system-prompt corpus (asgeirtj)",
+              "description": "A 481-file prompt corpus under CC0 covering harnesses others miss (Antigravity CLI at 24,493 bytes and Copilot CLI at 72,738), with dated Anthropic prompt series but no token counts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 976921297,
+                "language": "JavaScript",
+                "last_commit": "2026-08-18T05:07:02Z",
+                "owner": "asgeirtj",
+                "repo": "system_prompts_leaks",
+                "stars": 63164
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Claude Code system prompts (Piebald extraction)",
+              "description": "Piebald AI extracts Claude Code's full compiled prompt payload per release: 515 prompt strings and 27 tool descriptions at v2.1.212, each priced in tokens.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1099328966,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T00:35:37Z",
+                "owner": "Piebald-AI",
+                "repo": "claude-code-system-prompts",
+                "stars": 12376
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Harness Overhead"
         },
         {
-          "node_type": "item",
-          "title": "Aider - an OSS coding CLI that meters its own dollar cost",
-          "description": "An open-source terminal coding agent (Apache-2.0, ~48k★) with built-in per-message dollar-cost tracking and a public polyglot leaderboard.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-05-22T14:02:20Z",
-            "owner": "Aider-AI",
-            "repo": "aider",
-            "stars": 48308
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenCost - AI inference cost tracking",
+              "description": "The CNCF Kubernetes cost tool's 2026-07 feature turns GPU and shared-infrastructure spend on vLLM/llm-d deployments into cost per million tokens, reconciled to the infrastructure bill.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 178079595,
+                "language": "Go",
+                "last_commit": "2026-08-18T23:35:13Z",
+                "owner": "opencost",
+                "repo": "opencost",
+                "stars": 6684
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cross-vendor coding-agent usage trackers (AgentsView · caut)",
+              "description": "AgentsView and caut are open-source tools that read local session logs to aggregate token usage and cost across roughly 20 coding-agent vendors.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1162021647,
+                "language": "Go",
+                "last_commit": "2026-08-19T12:03:21Z",
+                "owner": "kenn-io",
+                "repo": "agentsview",
+                "stars": 5137
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "tokview",
+              "description": "A local, zero-config proxy showing a coding agent's token spend by session, model, and tool call, flagging re-sent results that multiply the bill.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1251980172,
+                "language": "Python",
+                "last_commit": "2026-07-09T14:32:44Z",
+                "owner": "headroomlabs-ai",
+                "repo": "tokview",
+                "stars": 70
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Metering"
         }
       ],
-      "title": "Market Competitors"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Measure"
     },
     {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "promptfoo",
-          "description": "An open-source CLI/CI harness for testing LLM prompts and agents that records per-eval token usage and cost as an assertable metric.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-18T16:08:11Z",
-            "owner": "promptfoo",
-            "repo": "promptfoo",
-            "stars": 24342
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SWE-bench",
-          "description": "The canonical accuracy-only software-engineering benchmark (2,294 real GitHub issue tasks, 12 Python repos, ICLR 2024). The cost-aware derivatives in this list build on it.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T01:07:16Z",
-            "owner": "SWE-bench",
-            "repo": "SWE-bench",
-            "stars": 5662
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LoCoMo",
-          "description": "Snap Research's very-long-term conversational-memory benchmark; the canonical dataset that Mem0, Zep, and Supermemory all cite, kept as a background instrument.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-08-13T03:21:32Z",
-            "owner": "snap-research",
-            "repo": "locomo",
-            "stars": 1110
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LongMemEval",
-          "description": "The peer-reviewed (ICLR 2025) benchmark for long-term memory in chat assistants.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-05-11T22:49:24Z",
-            "owner": "xiaowu0162",
-            "repo": "LongMemEval",
-            "stars": 1011
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MemoryBench",
-          "description": "A pluggable harness to run memory systems (Supermemory, Mem0, Zep) head-to-head across datasets like LoCoMo; useful for standardizing comparison.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-14T16:08:57Z",
-            "owner": "supermemoryai",
-            "repo": "memorybench",
-            "stars": 307
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RouterArena",
-          "description": "An open evaluation platform and live leaderboard for LLM routers - systems that auto-select a model per query.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-05T07:34:50Z",
-            "owner": "RouteWorks",
-            "repo": "RouterArena",
-            "stars": 119
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Claw-SWE-Bench",
-          "description": "Found that adapter/harness design alone swings an agent's Pass@1 score by about 54 percentage points on the identical model backbone.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-01T16:43:14Z",
-            "owner": "opensquilla",
-            "repo": "claw-swe-bench",
-            "stars": 93
-          }
-        }
-      ],
-      "title": "Benchmarks Evals"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Multi-vendor system-prompt and tool-schema corpus (x1xhlol)",
-          "description": "A 35-vendor collection of extracted agent system prompts with separate tool-schema JSON files (Claude Code's Tools.json alone is 48,962 bytes), published as raw text with no token counts.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-08-11T13:01:09Z",
-            "owner": "x1xhlol",
-            "repo": "system-prompts-and-models-of-ai-tools",
-            "stars": 142890
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Multi-vendor system-prompt corpus (asgeirtj)",
-          "description": "A 481-file prompt corpus under CC0 covering harnesses others miss (Antigravity CLI at 24,493 bytes and Copilot CLI at 72,738), with dated Anthropic prompt series but no token counts.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-18T05:07:02Z",
-            "owner": "asgeirtj",
-            "repo": "system_prompts_leaks",
-            "stars": 63119
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Claude Code system prompts (Piebald extraction)",
-          "description": "Piebald AI extracts Claude Code's full compiled prompt payload per release: 515 prompt strings and 27 tool descriptions at v2.1.212, each priced in tokens.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-17T21:05:56Z",
-            "owner": "Piebald-AI",
-            "repo": "claude-code-system-prompts",
-            "stars": 12356
-          }
-        }
-      ],
-      "title": "Harness Overhead"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "OpenCost - AI inference cost tracking",
-          "description": "The CNCF Kubernetes cost tool's 2026-07 feature turns GPU and shared-infrastructure spend on vLLM/llm-d deployments into cost per million tokens, reconciled to the infrastructure bill.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-11T21:07:14Z",
-            "owner": "opencost",
-            "repo": "opencost",
-            "stars": 6683
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Cross-vendor coding-agent usage trackers (AgentsView · caut)",
-          "description": "AgentsView and caut are open-source tools that read local session logs to aggregate token usage and cost across roughly 20 coding-agent vendors.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Go",
-            "last_commit": "2026-08-18T16:12:54Z",
-            "owner": "kenn-io",
-            "repo": "agentsview",
-            "stars": 5098
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "tokview",
-          "description": "A local, zero-config proxy showing a coding agent's token spend by session, model, and tool call, flagging re-sent results that multiply the bill.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-09T14:32:44Z",
-            "owner": "headroomlabs-ai",
-            "repo": "tokview",
-            "stars": 68
-          }
-        }
-      ],
-      "title": "Metering"
-    },
-    {
-      "description": "Tool-agnostic, evidence-grounded standards for token-efficient agentic coding. Each is one page: TL;DR, claim, evidence, links. Browse the practices.",
-      "items": [],
-      "title": "Practices"
-    },
-    {
-      "description": "Short reference notes explaining the ideas behind the practices: cache economics, the harness-waste taxonomy, orchestration economics. Browse the concepts.",
-      "items": [],
-      "title": "Concepts"
-    },
-    {
-      "description": "Confidence-scored beliefs, clearly labeled as beliefs rather than facts, each with its strongest evidence linked. Read the claims.",
-      "items": [],
-      "title": "Claims"
-    },
-    {
-      "description": "Runnable, validated Claude Code and Codex configurations and skills for token-efficient agentic coding, each labeled with how it was validated. Browse the setups.",
-      "items": [],
-      "title": "Setups and skills"
-    },
-    {
-      "description": "",
+      "description": "Text content: CC BY 4.0 (LICENSE) · Code and configs: MIT (LICENSE-CODE). Maintained by the team at Quesma.",
       "items": [
         {
           "node_type": "item",
@@ -1313,11 +1388,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 896335270,
             "language": null,
             "last_commit": "2026-08-17T21:28:42Z",
             "owner": "punkpeye",
             "repo": "awesome-mcp-servers",
-            "stars": 92525
+            "stars": 92564
           }
         },
         {
@@ -1327,11 +1403,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 603049672,
             "language": null,
             "last_commit": "2025-07-31T02:38:24Z",
             "owner": "Hannibal046",
             "repo": "Awesome-LLM",
-            "stars": 27270
+            "stars": 27271
           }
         },
         {
@@ -1341,11 +1418,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 144863525,
             "language": null,
             "last_commit": "2026-08-12T19:22:45Z",
             "owner": "EthicalML",
             "repo": "awesome-production-machine-learning",
-            "stars": 20851
+            "stars": 20853
           }
         },
         {
@@ -1355,11 +1433,12 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "id": 481805419,
             "language": "Shell",
             "last_commit": "2026-05-21T09:12:50Z",
             "owner": "tensorchord",
             "repo": "Awesome-LLMOps",
-            "stars": 5915
+            "stars": 5916
           }
         }
       ],
@@ -1367,8 +1446,9 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T16:17:38.440Z",
+    "last_updated": "2026-08-19T12:15:00.585Z",
     "original_repository": "QuesmaOrg/awesome-ai-tokenomics",
+    "original_repository_id": 1304407094,
     "original_repository_sha": "e964f2eb58fb1e78db329e758870b8f677df5581",
     "enhanced_repository": "enhansome/enhansome-ai-tokenomics",
     "enhanced_repository_description": null,
